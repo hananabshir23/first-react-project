@@ -3,15 +3,15 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 // import Tasbiih from "./components/Tasbiih";
 // import Header from "./components/Header";
-import Pratic from "./newcomponents/pratic";
+import Practice from "./components/Practice";
 
 const root = document.getElementById("root");
 
 createRoot(root).render(
   <div>
-    <Header />
-    <Tasbiih />
-    <Pratic />
+    {/* <Header />
+    <Tasbiih /> */}
+    <Practice />
     // {/* <Light /> */}
     {/* //{" "} */}
     {/* <div className=" mt-3 grid grid-cols-[400px_400px] gap-3 justify-around">
